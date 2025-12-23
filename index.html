@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bomberman HTML5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bomberman HTML5</h1>
+    <div id="game-container">
+        <canvas id="gameCanvas" width="480" height="480"></canvas>
+    </div>
+    <button id="speedToggle">Toggle Speed</button>
+    <button id="restartBtn" style="display:none;margin-left:12px;">Restart</button>
+    <div id="instructions">
+        <h2>Instructions</h2>
+        <ul>
+            <li>Arrow keys to move</li>
+            <li>Spacebar to place a bomb</li>
+            <li>Destroy all enemies to win</li>
+        </ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
